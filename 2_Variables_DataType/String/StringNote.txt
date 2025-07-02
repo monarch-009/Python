@@ -1,0 +1,68 @@
+# ===============================================
+# 🔍 Difference Between String Functions and String Methods in Python
+# ===============================================
+
+# 📘 DEFINITION:
+# String Functions: Built-in functions that work on strings (and other data types).
+# String Methods: Functions that are built into the string object and used with dot notation.
+
+# 🧠 BELONGS TO:
+# Functions: Part of Python's general built-ins.
+# Methods: Part of the string (str) class.
+
+# 🧪 HOW TO USE:
+# Function: function(string)
+# Method: string.method()
+
+# 🔁 APPLIES TO:
+# Functions: Can work on many data types (strings, lists, etc.)
+# Methods: Only work on string objects
+
+# ===============================================
+# ✅ Examples of String FUNCTIONS
+# ===============================================
+
+# len() → returns length of string
+name = "Aditya"
+print("Length of name:", len(name))  # Output: 6
+
+# type() → returns the type of object
+print("Type of name:", type(name))   # Output: <class 'str'>
+
+# sorted() → returns sorted characters in a list
+fruit = "banana"
+print("Sorted characters:", sorted(fruit))  # Output: ['a', 'a', 'a', 'b', 'n', 'n']
+
+
+# ===============================================
+# ✅ Examples of String METHODS
+# ===============================================
+
+# upper() → converts to uppercase
+greet = "hello"
+print("Uppercase:", greet.upper())   # Output: HELLO
+
+# replace() → replaces part of the string
+new_fruit = "apple"
+print("Replaced string:", new_fruit.replace("a", "A"))  # Output: Apple
+
+# split() → splits string into a list based on delimiter
+csv_data = "apple,banana,mango"
+print("Split string:", csv_data.split(","))  # Output: ['apple', 'banana', 'mango']
+
+# ===============================================
+# 💡 Quick Recap:
+# ===============================================
+
+# Functions:
+# - Used like: len("text")
+# - Are global and can be used on many types
+# - Examples: len(), type(), sorted()
+
+# Methods:
+# - Used like: "text".upper()
+# - Are specific to the string object
+# - Examples: upper(), replace(), split()
+
+# ✅ Best Practice: Know when to use each based on what you're working with!
+
